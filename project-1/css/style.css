@@ -16,6 +16,7 @@ body {
     align-items: center;
     height: 80px;
     border: 1px solid;
+
 }
 
 .logo {
@@ -27,7 +28,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 600px;
+    width: 500px;
 }
 
 .nav-link-items li {
@@ -44,7 +45,7 @@ body {
     color: red;
 }
 
-.card {
+#about .card {
     background-color: rgb(253, 245, 238);
     border: none;
     padding: 20px;
@@ -52,37 +53,51 @@ body {
     margin-top: 20%;
 }
 
-.card-img {
+#about .card .card-img {
     width: 120px;
     height: 120px;
     border-radius: 80px;
     margin-bottom: 15px;
 }
 
-.card-title {
+#about .card .card-title {
     font-size: 20px;
     font-weight: 700;
     color: rgb(59, 36, 8);
 }
 
-.card-text {
+#about .card .card-text {
     font-size: 16px;
     color: rgb(110, 85, 71);
 }
 
 .side-image {
-    margin-top: 20%;
-    height: auto;
+    height: 500px;
     border-radius: 10px;  
+    padding-left: 40px;
 }
 
-.content {
-    flex: 1;
-    padding: 10px 0px 0px 70px;
-    width: 100%;
+
+
+.content{
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
+#product .container .row{
+ display: flex;
+ justify-content: center;
+}
 
+#product .card {
+   padding: 0px;
+    width: 18rem;
+    margin-left: 10px;
+}
+#product .card img{
+    background-color: red;
+}
+
+#product .card .card-body p{
+   display: none;
+}
